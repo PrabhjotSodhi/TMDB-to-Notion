@@ -1,7 +1,7 @@
-import requests, json # written by idiots for idiots in idiot language - tounge twister
+import requests, os # written by idiots for idiots in idiot language - tounge twister
 # we need to ditch python and learn JS
 token = 'secret_l7tSLCs7mRtv31z2RuG1bU3W62qZc80bmILqLtk3M60'
-database_id = "973f2aa45f9b4b5fb7b475526c67313/2"
+database_id = os.environ['database_id']
 headers = {
     "Authorization": "Bearer " + token,
     "Notion-Version": "2021-08-16"
