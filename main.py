@@ -1,6 +1,6 @@
 import requests, os # written by idiots for idiots in idiot language - tounge twister
 # we need to ditch python and learn JS
-token = 'secret_l7tSLCs7mRtv31z2RuG1bU3W62qZc80bmILqLtk3M60'
+token = ''
 database_id = os.environ['database_id']
 headers = {
     "Authorization": "Bearer " + token,
